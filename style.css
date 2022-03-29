@@ -1,0 +1,54 @@
+body{
+    background-image:linear-gradient(to right, rgb(236, 43, 43), rgb(131, 82, 82)) ;
+}
+
+.title{
+    text-align: center;
+}
+
+
+
+.calculadora{
+    border: solid black;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+   left: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 20px;
+    color: white;
+    background-image:linear-gradient(to right, rgb(146, 128, 128), rgb(129, 41, 41)) ;
+   
+}
+
+
+.calc{
+    text-align: center;
+    color: rgb(13, 13, 26);
+}
+
+.resultado{
+    border: solid black;
+    width: 90%;
+    padding: 9px;
+   
+    background-color: white;
+    color: black;
+    text-align: right;
+    
+}
+
+.botao{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: brown;
+}
